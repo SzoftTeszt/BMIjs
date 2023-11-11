@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    
+    <script defer src="./script.js"></script>
+    <title>BMI</title>
+</head>
+<body>
+      <div class="container">
+      <h1 class="display-1 mb-5 text-center">Testtömeg Index számoló
+      </h1>
+      
+      <div class="row">
+
+        <div class="col-sm-12 col-md-6 col-xl-4 my-2">
+            <label class="form-label" for="magassag">Magasság (cm):</label>
+            <input type="number" class="form-control" id="magassag" name="magassag">
+       </div> 
+        <!-- magasság bekérés inoput vége -->
+
+        <div class="col-sm-12 col-md-6 col-xl-4 my-2">
+            <label class="form-label" for="suly">Súly (kg):</label>
+            <input type="number" class="form-control" id="suly" name="suly">
+           
+        </div>
+
+        <div class="col-sm-12 col-xl-4 text-center mt-xl-4">
+            <!-- <button id="gomb" type="button" class="btn btn-success  p-xl-3">Számol</button> -->
+            <button id="gomb" type="button" class="btn btn-success  p-xl-3">Számol</button>
+        </div>
+
+      </div> 
+      <!-- sor vége -->
+      
+      <div id="alert"  role="alert">
+        
+      </div>
+
+    </div>
+    <!-- container vége -->
+
+</body>
+</html>
